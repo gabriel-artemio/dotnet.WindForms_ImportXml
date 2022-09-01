@@ -1,0 +1,16 @@
+create database import_pessoa;
+
+use import_pessoa;
+
+select * from pessoas;
+
+CREATE TABLE `pessoas` (
+   `NM_PESSOA` varchar(150) DEFAULT NULL,
+   `DT_NASC` varchar(150) DEFAULT NULL,
+   `CPF` varchar(150) DEFAULT NULL,
+   `NM_MAE` varchar(150) DEFAULT NULL,
+   `ESTADO` varchar(150) DEFAULT NULL,
+   `CEP` varchar(150) DEFAULT NULL,
+   `ENDERECO` varchar(150) DEFAULT NULL,
+   `PESSOAS_Id` varchar(5) DEFAULT NULL
+ ) ENGINE=InnoDB DEFAULT CHARSET=latin1
